@@ -19,7 +19,7 @@ def perform_math():
         equation = input(str(previous))
 
 
-    if equation == 'QUIT' or 'quit' or 'Quit':
+    if equation == 'QUIT' :
         print("NAMASTEY, bye")
         run = False
     else:
